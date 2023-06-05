@@ -3,7 +3,7 @@
 ## Git 로컬 컴퓨터에 사용자 등록하기
 
 - git config --global user.name "saki8661"
-- git config --global user.name "saki8661@nave.com"
+- git config --global user.email "saki8661@naver.com"
 
 ## Git 시작하기
 
@@ -13,8 +13,8 @@
 
 ## Github 업로드하기
 
-- git remote add orgin 주소
-- git push origin main
+- git remote add origin 주소
+- git push origin master
 
 ## 다시 업로드 법
 
@@ -22,3 +22,8 @@
 - git add .
 - git commit -m "변경내용적고"
 - git push origin master
+
+## 잘안될때 해결법
+
+- git remote -v
+- git remote rm origin
